@@ -1,0 +1,16 @@
+.pc-header {
+    background-color: #0A0A0A;
+    height: 80px;
+}
+
+.navs {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: space-between;
+}
+
+.navs a {
+    font-size: 15px;
+    color: #FBFCD4;
+}

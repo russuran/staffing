@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'font'; /*a name to be used later*/
+    src: url('NotoSansDisplay-VariableFont_wdth,wght.ttf') format("truetype"); /*URL to font*/
+}
+
+html {
+    font-family: 'font';
+}
+
+.pc-header {
+    background-color: #0A0A0A;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.navs {
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navs a {
+    font-size: 18px;
+    color: #FBFCD4;
+    transition: all .3s;
+}
+
+.navs a:hover {
+    font-size: 18px;
+    cursor: pointer;
+    color: #faff6c;
+    transition: all .3s;
+    transform: scale(1.03);
+}
